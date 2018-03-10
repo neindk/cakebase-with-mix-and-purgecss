@@ -9,7 +9,7 @@
    
   Then you are done.
   
-  If you need  help about compile front end assets, go to Documentation of [Laravel-mix](https://laravel.com/docs/5.6/mix).
+  If you need  help about compile front end assets, check the [Laravel-mix Documentataion](https://laravel.com/docs/5.6/mix).
   
   If you need help to setup cakephp project, check the [CakePHP Documentation](https://book.cakephp.org/2.0/en/installation.html)
   
