@@ -1,6 +1,6 @@
 # CakePHP starter with tailwindcss, laravel-mix with purgecss
 
-##Setup
+## Setup
  - Install [Composer](), [Node](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/en/).
  - Clone Repo.
  - Go to root directory of the peoject and from command line..
@@ -13,6 +13,6 @@
   
   If you need help to setup cakephp project, check the [CakePHP Documentation](https://book.cakephp.org/2.0/en/installation.html)
   
-  ##Licence
+  ## Licence
   MIT
 
