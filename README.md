@@ -1,4 +1,4 @@
-# CakePHP starter with tailwindcss, laravel-mix with purgecss
+# CakePHP skeleton app configured with tailwindcss, laravel-mix and purgecss
 
 ## Setup
  - Install [Composer](), [Node](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/en/).
