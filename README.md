@@ -3,7 +3,7 @@
 ## Setup
  - Install [Composer](), [Node](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/en/).
  - Clone Repo.
- - Go to root directory of the peoject and from command line..
+ - Go to root directory of the project and from command line, 
    - Run `yarn` 
    - Run `composer install`
    
