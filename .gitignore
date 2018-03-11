@@ -10,6 +10,7 @@ webroot/css
 webroot/js
 tests
 node_modules
+webroot/mix-manifest.json
 
 # OS generated files #
 ######################
