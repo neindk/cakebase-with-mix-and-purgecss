@@ -12,13 +12,15 @@ mix.sass('resources/style/app.scss', 'webroot/css')
            tailwindcss('./tailwind.js'),
        ]
    })
-   .purgeCss({
-       globs: ['src/Template/**/*.ctp'],
-       extensions: ['ctp']
-   });
+
 
 if (mix.inProduction()) {
-    mix.version();
+    mix.purgeCss({
+        globs: ['src/Template/**/*.ctp'],
+        extensions: ['ctp']
+    }).version();
+} else {
+    mix.sourceMaps();
 }
 
 // Full API
