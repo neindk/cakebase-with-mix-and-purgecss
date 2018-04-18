@@ -23,6 +23,17 @@ if (mix.inProduction()) {
     mix.sourceMaps();
 }
 
+mix.browserSync({
+    proxy: 'yoursite.dev',
+    files: [
+        "webroot/css/**/*.css",
+        "webroot/css/**/*.js",
+        'src/**/*.php',
+        'src/Template/**/*.ctp',
+        'config/*.php',
+    ]
+});
+
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.

@@ -10,6 +10,8 @@
         "prod": "yarn run production"
     },
     "devDependencies": {
+        "browser-sync": "^2.23.6",
+        "browser-sync-webpack-plugin": "2.0.1",
         "cross-env": "^5.1.4",
         "laravel-mix": "2.1.11",
         "laravel-mix-purgecss": "^2.0.0",
